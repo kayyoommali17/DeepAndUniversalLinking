@@ -2,6 +2,7 @@
   "name": "DeepAndUniversalLinking",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://{kayyoommali17}.github.io",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
