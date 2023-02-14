@@ -1,22 +1,7 @@
-// import {StyleSheet, Text, View} from 'react-native';
-// import React from 'react';
-
-// const DetailScreen = () => {
-//   return (
-//     <View>
-//       <Text>DetailScreen</Text>
-//     </View>
-//   );
-// };
-
-// export default DetailScreen;
-
-// const styles = StyleSheet.create({});
-
 import React, {useCallback} from 'react';
 import {Alert, Button, Linking, StyleSheet, View} from 'react-native';
 
-const supportedURL = 'https://google.com';
+const supportedURL = 'https://www.youtube.com';
 
 const unsupportedURL = 'slack://open?team=123456';
 
@@ -54,8 +39,8 @@ const DetailScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
     alignItems: 'center',
+    justifyContent: 'center',
   },
 });
 

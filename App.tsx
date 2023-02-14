@@ -7,8 +7,11 @@ import DetailScreen from './src/screens/DetailScreen';
 const Stack = createNativeStackNavigator();
 
 function App() {
+  const linking = {
+    prefixes: ['kayyoomAli'],
+  };
   return (
-    <NavigationContainer>
+    <NavigationContainer linking={linking}>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Detail" component={DetailScreen} />
